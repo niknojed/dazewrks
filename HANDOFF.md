@@ -1,4 +1,4 @@
-# Handoff — dazewrks (Notebook)
+# Handoff — dazewrks
 
 ## State
 - Next.js 15 + Tailwind v4 + Supabase. `npm run build`, `tsc` and `eslint` pass.

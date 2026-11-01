@@ -216,7 +216,7 @@ export function useDoc<T>(kind: Kind, key: string, init: () => T, titleOf?: (d: 
           timer.current = setTimeout(() => { void flushRef.current(); }, 3000);
           return;
         }
-        if (attempt === 0) sayRef.current('Couldn’t reach your notebook. Retrying…');
+        if (attempt === 0) sayRef.current('Couldn’t reach dazewrks. Retrying…');
         setStatus('error');
         retry = setTimeout(() => load(attempt + 1), Math.min(30000, 2000 * 2 ** attempt));
         return;

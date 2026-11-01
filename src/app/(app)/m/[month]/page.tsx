@@ -120,7 +120,7 @@ function MonthFile({ id, onBack }: { id: string; onBack: () => void }) {
     <div className="relative">
       <div className="mx-auto max-w-[720px] px-6 pb-48 pt-3 md:px-[6%] md:pt-14">
         <div className="flex items-center justify-between md:hidden">
-          <IconButton label="Notebook" onClick={onBack} className="-ml-3"><Icon.Back /></IconButton>
+          <IconButton label="dazewrks" onClick={onBack} className="-ml-3"><Icon.Back /></IconButton>
           <SaveDot status={status} />
         </div>
         <div className="flex items-baseline justify-between gap-3">

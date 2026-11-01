@@ -6,7 +6,7 @@ import type { MonthDoc } from '@/lib/types';
 import { DAYS_LONG, cx, dayKey, monthFromId, prevMonthId, weekRange } from '@/lib/util';
 import { Icon } from './ui';
 
-export interface NotebookEvent {
+export interface WorkEvent {
   key: string;
   kind: 'week' | 'month';
   title: string;
@@ -15,11 +15,11 @@ export interface NotebookEvent {
 }
 
 /** Reflection on the chosen weekday; last month's recap during the first three days of a month. */
-export function useEvents(): NotebookEvent[] {
+export function useEvents(): WorkEvent[] {
   const { settings, monthsRev } = useApp();
   const { rows } = useDocList<MonthDoc>('month', monthsRev);
   const d = new Date();
-  const out: NotebookEvent[] = [];
+  const out: WorkEvent[] = [];
   const rd = Math.max(0, DAYS_LONG.indexOf(settings.reflectDay));
   const wk = 'w' + dayKey(d);
   if (d.getDay() === rd && !settings.eventsDone[wk]) {

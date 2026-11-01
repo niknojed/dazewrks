@@ -28,7 +28,7 @@ export default function ProfilePage() {
 
   return (
     <div className="mx-auto flex max-w-[600px] flex-col gap-8 px-6 pb-36 pt-3 md:px-[6%] md:pt-16">
-      <IconButton label="Notebook" onClick={() => router.push('/')} className="-ml-3 md:hidden"><Icon.Back /></IconButton>
+      <IconButton label="dazewrks" onClick={() => router.push('/')} className="-ml-3 md:hidden"><Icon.Back /></IconButton>
 
       <div className="flex items-center gap-4">
         <span aria-hidden className="inline-flex h-16 w-16 flex-none items-center justify-center rounded-full bg-ink text-[26px] font-semibold text-invert">{initial}</span>

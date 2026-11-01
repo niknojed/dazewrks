@@ -148,7 +148,7 @@ const LS = 'nb:v1:';
 
 function idb(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
-    const req = indexedDB.open('notebook-media', 1);
+    const req = indexedDB.open('dazewrks-media', 1);
     req.onupgradeneeded = () => req.result.createObjectStore('files');
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);

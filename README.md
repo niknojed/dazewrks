@@ -1,4 +1,4 @@
-# dazewrks — Notebook
+# dazewrks
 
 Daily notes in monthly files, voice memos, a screenplay editor, a music workspace and picture-book writing. Next.js 15 (App Router) + Tailwind v4 + Supabase.
 
@@ -17,7 +17,7 @@ npm run dev
 
 ```
 src/app/(app)/          signed-in app (shell: sidebar on web, tab bar on phone)
-  page.tsx              Notebook library (months, today, events)
+  page.tsx              home: months, today, events
   m/[month]/            a month file: day blocks + voice memos
   today/                opens today's block
   reflect/  recap/      weekly reflection and monthly recap (shown as events)

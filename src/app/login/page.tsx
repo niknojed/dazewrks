@@ -23,7 +23,7 @@ export default function LoginPage() {
 
   return (
     <main className="mx-auto flex min-h-dvh max-w-[420px] flex-col justify-center gap-8 px-6">
-      <h1 className="text-[40px] font-semibold leading-none tracking-[-0.03em]">Notebook</h1>
+      <h1 className="text-[40px] font-semibold leading-none tracking-[-0.03em]">dazewrks</h1>
       {state === 'sent' ? (
         <p className="font-serif text-xl leading-relaxed text-ink2">Check {email} for a sign-in link.</p>
       ) : (

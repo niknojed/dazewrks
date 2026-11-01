@@ -43,7 +43,7 @@ function Reflect() {
 
   return (
     <div className="mx-auto flex max-w-[680px] flex-col gap-6 px-6 pb-36 pt-3 md:gap-7 md:px-[6%] md:pt-16">
-      <IconButton label="Notebook" onClick={() => router.push('/')} className="-ml-3 md:hidden"><Icon.Back /></IconButton>
+      <IconButton label="dazewrks" onClick={() => router.push('/')} className="-ml-3 md:hidden"><Icon.Back /></IconButton>
       <header className="flex flex-col gap-2">
         <p className="text-[13px] font-medium text-muted">{weekRange(t.date)}</p>
         <h1 className="text-[34px] font-semibold leading-none tracking-[-0.03em] md:text-[44px]">{t.wdLong}</h1>

@@ -35,7 +35,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
       {/* Sidebar (web) */}
       <aside aria-label="Library" className="sticky top-0 hidden h-dvh w-[260px] flex-none flex-col gap-6 overflow-y-auto border-r border-line bg-side px-3.5 py-7 md:flex">
         <div className="flex flex-col gap-1 px-3">
-          <Link href="/" className="text-xl font-semibold tracking-tight">Notebook</Link>
+          <Link href="/" className="text-xl font-semibold tracking-tight">dazewrks</Link>
           <span className="text-[13px] text-muted">{t.long}</span>
         </div>
         <EventCards compact />

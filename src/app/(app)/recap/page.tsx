@@ -43,7 +43,7 @@ function Recap() {
 
   return (
     <div className="mx-auto flex max-w-[760px] flex-col gap-6 px-6 pb-36 pt-3 md:gap-7 md:px-[6%] md:pt-16">
-      <IconButton label="Notebook" onClick={() => router.push('/')} className="-ml-3 md:hidden"><Icon.Back /></IconButton>
+      <IconButton label="dazewrks" onClick={() => router.push('/')} className="-ml-3 md:hidden"><Icon.Back /></IconButton>
       <div className="flex flex-wrap items-end justify-between gap-4">
         <h1 className="text-[30px] font-semibold leading-none tracking-[-0.025em] md:text-[40px]">{view === 'month' ? id : 'Season'}</h1>
         <Segmented value={view} onChange={setView} options={[{ value: 'month', label: info.name }, { value: 'season', label: 'Season' }]} />

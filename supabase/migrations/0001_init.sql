@@ -1,4 +1,4 @@
--- Notebook schema
+-- dazewrks schema
 -- Every piece of work is a document (a month of notes, a script, a music workspace, a book).
 -- Documents have one owner and optional members, so collaborators and shared credits can
 -- be added later without migrating data.

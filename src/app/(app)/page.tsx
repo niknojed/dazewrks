@@ -22,7 +22,7 @@ export default function LibraryPage() {
       <div className="flex items-end justify-between gap-3">
         <header className="flex flex-col gap-2">
           <p className="text-[13px] font-medium text-muted">{t.long}</p>
-          <h1 className="text-[34px] font-semibold leading-none tracking-[-0.03em] md:text-[44px]">Notebook</h1>
+          <h1 className="text-[34px] font-semibold leading-none tracking-[-0.03em] md:text-[44px]">dazewrks</h1>
         </header>
         <Link href="/profile" aria-label="Profile"
           className="inline-flex h-11 w-11 flex-none items-center justify-center rounded-full bg-ink text-[17px] font-semibold text-invert md:hidden">
